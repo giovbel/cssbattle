@@ -1,0 +1,33 @@
+
+body {
+    margin-top: 140px;
+    margin-left: 430px;
+    background-color: #62374e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 300px;
+}
+
+
+.quadrado1{
+    position: relative;
+    width: 140px; 
+    height: 140px; 
+    background: #fdc57b; 
+}
+
+.quadrado2{
+    width: 140px; 
+    height: 140px; 
+    background: #fdc57b; 
+}
+.quadrado3{
+    width: 140px;
+    height: 140px;
+    background: #fdc57b;
+}
+.quadrado4{
+    width: 140px;
+    height: 140px;
+    background: #fdc57b;
+}
