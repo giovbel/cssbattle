@@ -1,54 +1,30 @@
 body{
-    margin-left: 70px;
-    margin-top: 60px;
     background-color: #191919;
-}
+    margin-top: 3%;
+    margin-left: 3%;
+    display: grid;
+    gap: 3vw;
+ } 
 
-.bolinha1{
-    background-color: #f6e59c;
-    height: 140px;
-    width: 140px;
-    border-radius: 100px;
+ div{
+    width: 7vw;
+    height: 14vh;
+    background: #F6E59C;
+    border-radius: 100%;
+  }
+
+.fileira1{
+  display: grid;
+  grid-template-columns: 1fr  1fr 1fr 1fr;
+  gap: 5vw;
 }
-.bolinha2{
-    margin-top: 50px;
-    background-color: #f6e59c;
-    height: 140px;
-    width: 140px;
-    border-radius: 100px;
+.fileira2{
+  display: grid;
+  grid-template-columns: 1fr  1fr 1fr;
+  gap: 5vw;
 }
-.bolinha3{
-    margin-top: 50px;
-    background-color: #f6e59c;
-    height: 140px;
-    width: 140px;
-    border-radius: 100px;
-}
-.bolinha4{
-    margin-top: 50px;
-    background-color: #f6e59c;
-    height: 140px;
-    width: 140px;
-    border-radius: 100px;
-}
-.bolinha5{
-    margin-top: 50px;
-    background-color: #f6e59c;
-    height: 140px;
-    width: 140px;
-    border-radius: 100px;
-}
-.bolinha6{
-    margin-top: 50px;
-    background-color: #f6e59c;
-    height: 140px;
-    width: 140px;
-    border-radius: 100px;
-}
-.bolinha7{
-    margin-top: 50px;
-    background-color: #f6e59c;
-    height: 140px;
-    width: 140px;
-    border-radius: 100px;
+.fileira3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
 }
